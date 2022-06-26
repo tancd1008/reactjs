@@ -1,4 +1,4 @@
-import SingUp from '~/pages/auth/Signup';
+import SingUp from '~/pages/auth/Signin';
 import Home from '~/pages/client/Home';
 
 const publicRoutes = [
@@ -7,7 +7,7 @@ const publicRoutes = [
         component: Home,
     },
     {
-        path: '/signup',
+        path: '/admin/signin',
         component: SingUp,
     },
 ];
